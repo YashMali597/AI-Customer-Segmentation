@@ -24,7 +24,7 @@ Retail organizations often struggle to answer critical questions:
 - 🎯 Who should be targeted, when, and with what incentive?
 
 Most analytics systems explain **what happened**.  
-This system predicts **what will happen next — and what to do about it**.
+This system predicts **what will happen next and what to do about it**.
 
 ## 🔍 Feature Engineering (Behavioral Modeling)
 
@@ -47,25 +47,13 @@ These features capture **engagement intensity, loyalty, and revenue contribution
   - Business interpretability
 - Final choice: **4 meaningful customer segments**
 
-### 🧠 Segment Interpretation
-
-| Segment | Description | Business Action |
-|------|------|------|
-| 💎 High-Value Loyalists | High spend, recent activity | Retain & reward |
-| 🌱 Growth Customers | Low spend, high recency | Upsell & nurture |
-| ⚠️ At-Risk High Value | High spend, inactive | Immediate retention |
-| 💤 Low-Value Dormant | Low spend, inactive | Reactivate or deprioritize |
-
 📌 **Key Insight:**  
-Retail revenue is **highly skewed**, where a small percentage of customers drive the majority of revenue — a classic long-tail distribution.
+Retail revenue is **highly skewed**, where a small percentage of customers drive the majority of revenue, a classic long-tail distribution.
 
 ## ⚠️ Churn Prediction (Supervised Learning)
 
 - Churn defined using **behavioral inactivity thresholds**
 - Model used: **Linear Regression**
-- Outputs:
-  - Churn probability score (0–1)
-  - Risk classification: Low / Medium / High
 
 🎯 **Why this matters:**  
 Not all churn is equal; losing a high-CLV customer has a significantly higher business impact.
@@ -88,15 +76,6 @@ An AI-driven decision layer combines:
 - Customer Segment
 - Churn Probability
 - Predicted CLV
-
-### 🧠 Example Recommendations
-
-| Customer Profile | Recommended Action |
-|------|------|
-| High CLV + High Churn | Exclusive loyalty rewards & early product access |
-| Growth Segment | Personalized product bundles & upsell offers |
-| Low CLV + High Churn | Discount coupons & gamified rewards |
-| Loyal Customers | Win-back offers & reactivation discounts |
 
 📌 **Output:**  
 Actionable recommendations ready for CRM, marketing automation, or sales teams.
